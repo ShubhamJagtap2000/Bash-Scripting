@@ -43,7 +43,7 @@ read name
 echo "Your name is $name"
 ```
 
-- **Above code will hang after its ran**, this gives you the opportunity to type in your name and run again.
+- **<ins>Above code will hang after its ran</ins>**, this gives you the opportunity to type in your name and run again.
 
 ```
 ./example.sh
