@@ -23,23 +23,23 @@
 transport=('car' 'train' 'bike' 'bus')
 ```
 
-- We have the variable name, in our case `transport`
+- We have the ***variable*** name, in our case `transport`
 
 - We then wrap each item in ***brackets*** leaving a ***space*** between each item.
 
-- We can then echo out all the elements in our array like this:
+- We can then echo out all the elements in our array like this: 
 
 ```
 echo "${transport[@]}"
 ```
 
-- You can try this in your own terminal and see what it outputs.
+- You can try this in your own terminal and see what [this script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/05%20-%20Arrays/Scripts/Print-All-Elements.sh) outputs.
 
 - Where the `"@"` means all ***arguments***, and the `[]` wrapped around it specifies its ***index***.
 
 - So what if we wanted to print out the item train.
 
-- We would simply type:
+- We would simply type [this script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/05%20-%20Arrays/Scripts/Array-Specific.sh):
 
 ```
 echo "${transport[1]}"
@@ -47,27 +47,29 @@ echo "${transport[1]}"
 
 - because the train is at ***index*** position `1`.
 
-- The last thing we will cover is if we want to change an element, or delete it. 
+- The last thing we will cover is if we want to ***change*** an element, or delete it. 
 
-- If we wanted to ***remove an element*** we would use the `unset` utility.
+- If we wanted to ***remove an element*** we would use the `unset` utility in [this script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/05%20-%20Arrays/Scripts/unset.sh)
 ```
 unset transport[1]
 ```
 
 - This now removes the `train` item, if we wanted to we could `echo` it back out and see that it is indeed gone,
 
-- Now lets set it to something else. We can do:
+- Now let's set it to something else. We can do:
 
 ```
 transport[1]='trainride'
 ```
 
-- If we `echo` the array then we get:
+- If we `echo` the array then with [this script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/05%20-%20Arrays/Scripts/Replace-An-Element.sh) we get:
 ```
 car trainride bike bus
 ```
 
+- You can also index an array in negative integers form using [this script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/05%20-%20Arrays/Scripts/Negative-Indexing.sh)
 
+- You can add an element at the end of an array with [this script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/05%20-%20Arrays/Scripts/Add-At-End.sh)
 
 
 
