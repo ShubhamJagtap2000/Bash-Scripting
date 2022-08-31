@@ -8,7 +8,7 @@
 |-lt |Checks if the value of left operand is less than the value of right operand; if yes, then the condition becomes true.|
 |-ge| Checks if the value of left operand is greater than or equal to the value of right operand; if yes, then the condition becomes true.|
 
-- So now let's use this to make a [little script]() that compares an input(a parameter) and checks it against a value to `check if it's true or not`. 
+- So now let's use this to make a [little script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/07%20-%20Operators%20%26%20Conditonals/Scripts/SingleCondition.sh) that compares an input(a parameter) and checks it against a value to `check if it's true or not`. 
 
 - A guessing game if you will.
 
@@ -27,7 +27,7 @@
 ```
 - And we can see that it works!
 
-- Now let's create [another script]() where we will use 2 conditions simultaneously
+- Now let's create [another script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/07%20-%20Operators%20%26%20Conditonals/Scripts/TwoConditions.sh) where we will use 2 conditions simultaneously
 
 
 - We want to make a script that we will perform on a file given by a ***parameter***.
