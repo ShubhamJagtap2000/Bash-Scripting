@@ -58,4 +58,4 @@ Your name is Alex
 - And we can see that it worked!
 
 
-
+- Head to the [QnA section](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/09%20-%20QnA/README.md#parameters) for questions and answers on this topic.
