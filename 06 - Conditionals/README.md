@@ -46,3 +46,5 @@ else
   
 fi
 ```
+
+- Head to the [QnA section](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/09%20-%20QnA/README.md#conditionals) for questions and answers on this topic.
