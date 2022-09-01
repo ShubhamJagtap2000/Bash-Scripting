@@ -65,3 +65,5 @@ echo $city
 ```
 echo $country
 ```
+
+- You can also refer [QnA section](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/09%20-%20QnA)
