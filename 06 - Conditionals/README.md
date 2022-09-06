@@ -10,7 +10,7 @@
 
 - [Example script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/06%20-%20Conditionals/Scripts/Conditionals1.sh):
 
-```
+```sh
 !#/bin/bash
 
 count = 10
@@ -33,7 +33,7 @@ fi
 
 - The `-eq` is one way of doing this, you could also use `“=”`, so our [new script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/06%20-%20Conditionals/Scripts/Conditionals2.sh) becomes,
 
-```
+```sh
 !#/bin/bash
 
 count = 10
