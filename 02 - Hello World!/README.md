@@ -2,7 +2,7 @@
 
 - A bash script always starts with the following line of code at the top of the script.
 
-```
+```sh
 #!/bin/bash
 ```
 
@@ -10,7 +10,7 @@
 
 # Hello World!
 
-```
+```sh
 #!/bin/bash
 echo "Hello World!"
 ```
@@ -23,12 +23,12 @@ echo "Hello World!"
 
 - Now to run our bash script we must first give it ***executable permissions***
 
-```
+```sh
 chmod +x yourfile.sh
 ```
 
 - And then we run it using 
-```
+```sh
 ./yourfile.sh
 ```
 
