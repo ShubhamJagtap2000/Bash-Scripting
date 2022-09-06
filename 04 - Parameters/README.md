@@ -4,7 +4,7 @@
 
 - Lets start by declaring a parameter that is going to be our **first** argument when running our [bash script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/04%20-%20Parameters/Scripts/1stArgument.sh).
 
-```
+```sh
 name=$1
 
 echo $name
@@ -19,7 +19,7 @@ echo $name
 
 - Well the process is very simple and we simply add a `$2` instead of `$1` in `name=$1` in our [new bash script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/04%20-%20Parameters/Scripts/2ndArgument.sh).
 
-```
+```sh
 name=$2
 
 echo $name
@@ -33,7 +33,7 @@ echo $name
 
 - What if we didn't want to supply them like this however, and instead it would let us type in our name in a more interactive way, we can do this using read in our [new bash script](https://github.com/ShubhamJagtap2000/Bash-Scripting/blob/main/04%20-%20Parameters/Scripts/hang.sh).
 
-```
+```sh
 #!/bin/bash
 
 echo Enter your name
@@ -45,7 +45,7 @@ echo "Your name is $name"
 
 - **<ins>Above code will hang after its ran</ins>**, this gives you the opportunity to type in your name and run again.
 
-```
+```sh
 ./example.sh
 
 Enter your name
