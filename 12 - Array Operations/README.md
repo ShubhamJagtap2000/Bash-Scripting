@@ -45,3 +45,11 @@ echo ${#Fruits[3]}          # String length of the Nth element
 echo ${Fruits[@]:3:2}       # Range (from position 3, length 2)
 echo ${!Fruits[@]}          # Keys of all elements, space-separated
 ```
+
+# Array Iteration
+
+```sh
+for i in "${arrayName[@]}"; do
+  echo $i
+done
+```
