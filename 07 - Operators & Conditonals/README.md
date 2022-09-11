@@ -14,6 +14,23 @@
 
   ![image](https://user-images.githubusercontent.com/63872951/187646937-47c0ecf1-79f8-46d3-97cd-915de3b12ef3.png)
 
+# Basic if loop
+
+```sh
+# Basic Loop
+for i in /etc/rc.*; do
+  echo $i
+done
+# Loop like C 
+for ((i = 0 ; i < 100 ; i++)); do
+  echo $i
+done
+# With Ranges 
+for i in {1..5}; do
+    echo "Welcome $i"
+done
+```
+
 - Now let's test this in our terminal.
 
 ```
