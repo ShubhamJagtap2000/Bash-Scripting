@@ -9,9 +9,10 @@
 
 # Topics covered in this repository  
     
-   - Introduction
-   - Hello World!
-   - Variables
-   - Using parameters
-   - Arrays
-   - Conditionals
+   - **[Introduction](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/01%20Introduction)**
+   - **[Hello World!](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/02%20Hello%20World!)**
+   - **[Variables](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/03%20Variables)**
+   - **[Using parameters](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/04%20Parameters)**
+   - **[Arrays](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/05%20Arrays)**
+   - **[Conditionals](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/06%20Conditionals)**
+   - **[Operators](https://github.com/ShubhamJagtap2000/Bash-Scripting/tree/main/07%20Operators%20%26%20Conditonals)**
